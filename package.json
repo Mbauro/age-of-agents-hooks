@@ -1,0 +1,22 @@
+{
+  "name": "age-of-agents-hooks",
+  "version": "1.0.0",
+  "description": "Lifecycle hooks that connect coding agents to Age of Agents",
+  "license": "MIT",
+  "repository": "github:Mbauro/age-of-agents-hooks",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "age-of-agents-hooks": "bin/age-of-agents-hooks.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}
